@@ -149,4 +149,12 @@ table {
 a {
   text-decoration: none; }
 
+:root {
+  --color-primary: #263137;
+  --color-secondary: #FAFF00;
+  --color-white: #FFF;
+  --color-light-gray: #CACACA;
+  --color-gray: #676760;
+  --color-black: #070707; }
+
 /*# sourceMappingURL=main.css.map */
