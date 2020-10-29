@@ -160,6 +160,13 @@ a {
 .header {
   color: var(--color-secondary); }
 
+.btn {
+  width: fit-content;
+  background-color: var(--color-secondary); }
+
+.text {
+  color: var(--color-white); }
+
 .body {
   background-color: #121111;
   font-family: Arial, Helvetica, sans-serif; }
@@ -184,13 +191,16 @@ a {
 
 .main {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .location {
-  display: flex; }
+  display: flex;
+  align-items: center;
+  width: 80%; }
   .location__text-container {
     display: flex;
-    flex-direction: column;
-    color: var(--color-white); }
+    flex-direction: column; }
 
 /*# sourceMappingURL=main.css.map */

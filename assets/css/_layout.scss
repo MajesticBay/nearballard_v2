@@ -32,14 +32,19 @@
 .main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .location {
     display: flex;
+    // justify-content: center;
+    align-items: center;
+    width: 80%;
 
     &__text-container {
         display: flex;
         flex-direction: column;
-        color: var(--color-white);
+        // color: var(--color-white);
     }
 }
