@@ -160,11 +160,24 @@ a {
 .header {
   color: var(--color-secondary); }
 
+.pointer {
+  cursor: pointer; }
+
 .btn {
   width: fit-content;
-  background-color: var(--color-secondary); }
+  padding: 1rem 2rem;
+  background-color: var(--color-secondary);
+  font-size: 33px;
+  line-height: 150%; }
+
+.heading-primary {
+  font-size: 54px;
+  line-height: 88px;
+  color: var(--color-white); }
 
 .text {
+  font-size: 28px;
+  line-height: 150%;
   color: var(--color-white); }
 
 .body {
@@ -204,8 +217,15 @@ a {
     display: flex;
     flex-direction: column; }
 
-@media only screen and (max-width: 768px) {
+.hours-of-operation {
+  width: 100%;
+  padding: 4rem;
+  color: var(--color-white);
+  background-image: url(../images/store.png); }
+
+@media only screen and (min-width: 768px) {
   .location {
-    flex-direction: row; } }
+    flex-direction: row;
+    width: 80%; } }
 
 /*# sourceMappingURL=main.css.map */

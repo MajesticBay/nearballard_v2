@@ -2,12 +2,27 @@
     color: var(--color-secondary);
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .btn {
     // display: inline-block;
     width: fit-content;
+    padding: 1rem 2rem;
     background-color: var(--color-secondary);
+    font-size: 33px;
+    line-height: 150%;
+}
+
+.heading-primary {
+    font-size: 54px;
+    line-height: 88px;
+    color: var(--color-white);
 }
 
 .text {
+    font-size: 28px;
+    line-height: 150%;
     color: var(--color-white);
 }
