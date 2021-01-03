@@ -279,11 +279,13 @@ a {
 .contact-form__input {
   padding: 1rem 1.5rem;
   background-color: #2C2929;
-  border: 1px solid #CED4DA; }
+  border: 1px solid #CED4DA;
+  color: #CED4DA; }
 .contact-form__textarea {
   padding: 1rem 1.5rem;
   background-color: #2C2929;
-  border: 1px solid #CED4DA; }
+  border: 1px solid #CED4DA;
+  color: #CED4DA; }
 .contact-form__submit-container {
   display: flex;
   justify-content: center;
