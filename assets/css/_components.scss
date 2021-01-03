@@ -9,7 +9,7 @@
 
 .heading-primary {
     font-family: "Monument Extended";
-    font-size: 3.4rem;
+    font-size: 2rem;
     line-height: 150%;
     color: var(--color-secondary);
 }
@@ -43,6 +43,12 @@
 
     &__inner {
         width: 90%;
+    }
+}
+
+@media only screen and (min-width: 440px) {
+    .heading-primary {
+        font-size: 2.6rem;
     }
 }
 
