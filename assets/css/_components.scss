@@ -1,9 +1,17 @@
-.header {
+.pointer {
+    cursor: pointer;
+}
+
+.heading-primary {
+    font-size: 54px;
+    line-height: 88px;
     color: var(--color-secondary);
 }
 
-.pointer {
-    cursor: pointer;
+.text {
+    font-size: 28px;
+    line-height: 150%;
+    color: var(--color-white);
 }
 
 .btn {
@@ -15,14 +23,24 @@
     line-height: 150%;
 }
 
-.heading-primary {
-    font-size: 54px;
-    line-height: 88px;
-    color: var(--color-white);
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    &--store-bg {
+        background-image: url(../images/store.png);
+    }
+
+    &__inner {
+        width: 90%;
+    }
 }
 
-.text {
-    font-size: 28px;
-    line-height: 150%;
-    color: var(--color-white);
+@media only screen and (min-width: 768px) {
+    .container {
+        &__inner {
+            width: 80%;
+        }
+    }
 }

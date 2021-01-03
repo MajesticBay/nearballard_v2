@@ -41,7 +41,7 @@
     flex-direction: column;
     // justify-content: center;
     align-items: center;
-    width: 80%;
+    // width: 80%;
 
     &__text-container {
         display: flex;
@@ -54,12 +54,11 @@
     width: 100%;
     padding: 4rem;
     color: var(--color-white);
-    background-image: url(../images/store.png);
 }
 
 @media only screen and (min-width: 768px) {
     .location {
         flex-direction: row;
-        width: 80%;
+        // width: 80%;
     }
 }
