@@ -266,7 +266,8 @@ a {
     display: grid;
     gap: 1rem; }
   .contact-us__25-years {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    text-align: center; }
 
 .contact-form__input {
   padding: 1rem 1.5rem;
