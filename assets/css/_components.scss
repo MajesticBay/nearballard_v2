@@ -8,13 +8,14 @@
 }
 
 .heading-primary {
-    font-size: 54px;
+    font-family: "Monument Extended";
+    font-size: 5.4rem;
     line-height: 88px;
     color: var(--color-secondary);
 }
 
 .text {
-    font-size: 28px;
+    font-size: 2.5rem;
     line-height: 150%;
     color: var(--color-white);
 }
@@ -24,7 +25,7 @@
     width: fit-content;
     padding: 1rem 2rem;
     background-color: var(--color-secondary);
-    font-size: 33px;
+    font-size: 1.6rem;
     line-height: 150%;
 }
 
