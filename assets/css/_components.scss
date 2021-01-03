@@ -2,6 +2,11 @@
     cursor: pointer;
 }
 
+.img {
+    width: 100%;
+    height: auto;
+}
+
 .heading-primary {
     font-size: 54px;
     line-height: 88px;
@@ -30,6 +35,8 @@
 
     &--store-bg {
         background-image: url(../images/store.png);
+        background-position: center;
+        background-size: cover;
     }
 
     &__inner {

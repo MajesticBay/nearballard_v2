@@ -37,10 +37,11 @@
 }
 
 .location {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    padding: 6rem 0;
+    // flex-direction: column;
     // justify-content: center;
-    align-items: center;
+    // align-items: center;
     // width: 80%;
 
     &__text-container {
@@ -52,13 +53,18 @@
 
 .hours-of-operation {
     width: 100%;
-    padding: 4rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // padding: 10rem 0;
     color: var(--color-white);
 }
 
 @media only screen and (min-width: 768px) {
     .location {
-        flex-direction: row;
+        grid-template-columns: 2fr 1fr;
+        // flex-direction: row;
         // width: 80%;
     }
 }
