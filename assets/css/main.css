@@ -177,7 +177,7 @@ a {
 
 .btn {
   width: fit-content;
-  padding: 1rem 2rem;
+  padding: .5rem 1rem;
   background-color: var(--color-secondary);
   font-size: 1.6rem;
   line-height: 150%; }
@@ -246,6 +246,8 @@ a {
   padding: 4rem 0; }
   .contact-us__contact-form {
     display: grid; }
+  .contact-us__25-years {
+    margin-top: 2rem; }
 
 .contact-form__input {
   padding: 1rem 1.5rem;
@@ -272,8 +274,9 @@ a {
     .footer .footer-top-container__inner {
       display: grid;
       grid-template-columns: 3fr 1fr 3fr;
-      gap: 1rem;
-      width: 80%; }
+      align-items: center;
+      justify-items: center;
+      gap: 1rem; }
     .footer .footer-top-container__left {
       display: flex;
       flex-direction: column;

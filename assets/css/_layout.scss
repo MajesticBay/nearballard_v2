@@ -72,6 +72,10 @@
     &__contact-form {
         display: grid;
     }
+
+    &__25-years {
+        margin-top: 2rem;
+    }
 }
 
 .contact-form {
@@ -110,8 +114,10 @@
         &__inner {
             display: grid;
             grid-template-columns: 3fr 1fr 3fr;
+            align-items: center;
+            justify-items: center;
             gap: 1rem;
-            width: 80%;
+            // width: 80%;
         }
 
         &__left {
