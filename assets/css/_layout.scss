@@ -54,6 +54,10 @@
         flex-direction: column;
         // color: var(--color-white);
     }
+
+    &__btn {
+        margin-top: 2rem;
+    }
 }
 
 .hours-of-operation {
@@ -93,6 +97,7 @@
     &__submit-container {
         display: flex;
         justify-content: center;
+        margin-top: 2rem;
     }
 }
 

@@ -177,7 +177,7 @@ a {
 
 .btn {
   width: fit-content;
-  padding: .5rem 1rem;
+  padding: .5rem 1.5rem;
   background-color: var(--color-secondary);
   font-size: 1.6rem;
   line-height: 150%; }
@@ -233,6 +233,8 @@ a {
   .location__text-container {
     display: flex;
     flex-direction: column; }
+  .location__btn {
+    margin-top: 2rem; }
 
 .hours-of-operation {
   width: 100%;
@@ -258,7 +260,8 @@ a {
   background-color: #2C2929; }
 .contact-form__submit-container {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 2rem; }
 
 .footer {
   display: flex;
