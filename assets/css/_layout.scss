@@ -74,7 +74,7 @@
     }
 }
 
-.contact-form {                       // "submit";
+.contact-form {
     &__input {
         padding: 1rem 1.5rem;
         background-color: #2C2929;
@@ -83,6 +83,50 @@
     &__textarea {
         padding: 1rem 1.5rem;
         background-color: #2C2929;
+    }
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+
+    &__top-container {
+        background-color: #070707;
+        padding: 2rem 0;
+    }
+
+    &__bottom-container {
+        display: flex;
+        justify-content: center;
+        color: var(--color-secondary);
+        padding: 1.5rem 0;
+    }
+
+    .footer-top-container {
+        display: flex;
+        justify-content: center;
+        color: #74746B;
+
+        &__inner {
+            display: grid;
+            grid-template-columns: 3fr 1fr 3fr;
+            gap: 1rem;
+            width: 80%;
+        }
+
+        &__left {
+            display: flex;
+            flex-direction: column;
+            // justify-content: end;
+            align-items: flex-end;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            // justify-content: end;
+            align-items: flex-start;
+        }
     }
 }
 
