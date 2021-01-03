@@ -55,8 +55,13 @@
         // color: var(--color-white);
     }
 
+    &__link {
+        color: var(--color-black);
+    }
+
     &__btn {
         margin-top: 2rem;
+        color: var(--color-black);
     }
 }
 
@@ -143,6 +148,11 @@
             flex-direction: column;
             // justify-content: end;
             align-items: flex-start;
+            color: #74746B;
+        }
+
+        &__right-link {
+            color: #74746B;
         }
     }
 }

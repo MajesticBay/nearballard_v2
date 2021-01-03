@@ -233,8 +233,11 @@ a {
   .location__text-container {
     display: flex;
     flex-direction: column; }
+  .location__link {
+    color: var(--color-black); }
   .location__btn {
-    margin-top: 2rem; }
+    margin-top: 2rem;
+    color: var(--color-black); }
 
 .hours-of-operation {
   width: 100%;
@@ -291,7 +294,10 @@ a {
     .footer .footer-top-container__right {
       display: flex;
       flex-direction: column;
-      align-items: flex-start; }
+      align-items: flex-start;
+      color: #74746B; }
+    .footer .footer-top-container__right-link {
+      color: #74746B; }
 
 @media only screen and (min-width: 768px) {
   .location {
