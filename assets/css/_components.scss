@@ -9,13 +9,13 @@
 
 .heading-primary {
     font-family: "Monument Extended";
-    font-size: 5.4rem;
-    line-height: 88px;
+    font-size: 3.4rem;
+    line-height: 150%;
     color: var(--color-secondary);
 }
 
 .text {
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     line-height: 150%;
     color: var(--color-white);
 }
@@ -47,9 +47,27 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .heading-primary {
+        font-size: 3.4rem;
+    }
+
+    .text {
+        font-size: 2rem;
+    }
+
     .container {
         &__inner {
             width: 80%;
         }
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .heading-primary {
+        font-size: 5.4rem;
+    }
+
+    .text {
+        font-size: 2.5rem;
     }
 }
