@@ -165,6 +165,15 @@ a {
   height: auto;
   object-fit: contain; }
 
+.mb-10 {
+  margin-bottom: 10px; }
+
+.mb-30 {
+  margin-bottom: 30px; }
+
+.mb-60 {
+  margin-bottom: 60px; }
+
 .heading-primary {
   font-family: "Monument Extended";
   font-size: 2rem;
@@ -232,7 +241,8 @@ a {
   grid-template-columns: 1fr;
   gap: 1rem;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  padding-top: 1.5rem; }
   .header__left-part {
     text-align: left; }
 
