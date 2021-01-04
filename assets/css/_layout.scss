@@ -52,7 +52,9 @@
 
 .location {
     display: grid;
+    grid-template-rows: 1fr minmax(250px, 400px);
     padding: 6rem 0;
+    gap: 3rem;
     // flex-direction: column;
     // justify-content: center;
     // align-items: center;
@@ -72,6 +74,15 @@
         margin-top: 2rem;
         color: var(--color-black);
     }
+
+    &__img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    // &__img {
+    //     width: 400px;
+    // }
 }
 
 .hours-of-operation {
@@ -191,7 +202,9 @@
 
     .location {
         grid-template-columns: 2fr 1.5fr;
-        gap: 2rem;
+        grid-template-rows: 1fr;
+        gap: 5rem;
+        align-items: center;
         // flex-direction: row;
         // width: 80%;
     }

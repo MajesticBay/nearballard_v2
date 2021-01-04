@@ -162,7 +162,8 @@ a {
 
 .img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  object-fit: contain; }
 
 .heading-primary {
   font-family: "Monument Extended";
@@ -171,7 +172,7 @@ a {
   color: var(--color-secondary); }
 
 .text {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 150%;
   color: var(--color-white); }
 
@@ -198,12 +199,6 @@ a {
   .heading-primary {
     font-size: 2.6rem; } }
 @media only screen and (min-width: 768px) {
-  .heading-primary {
-    font-size: 3.4rem; }
-
-  .text {
-    font-size: 2rem; }
-
   .container__inner {
     width: 80%; } }
 @media only screen and (min-width: 1440px) {
@@ -249,7 +244,9 @@ a {
 
 .location {
   display: grid;
-  padding: 6rem 0; }
+  grid-template-rows: 1fr minmax(250px, 400px);
+  padding: 6rem 0;
+  gap: 3rem; }
   .location__text-container {
     display: flex;
     flex-direction: column; }
@@ -258,6 +255,9 @@ a {
   .location__btn {
     margin-top: 2rem;
     color: var(--color-black); }
+  .location__img-container {
+    display: flex;
+    justify-content: center; }
 
 .hours-of-operation {
   width: 100%;
@@ -338,7 +338,9 @@ a {
 
   .location {
     grid-template-columns: 2fr 1.5fr;
-    gap: 2rem; }
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    align-items: center; }
 
   .contact-us__contact-form {
     grid-template-columns: 1fr 1fr;
