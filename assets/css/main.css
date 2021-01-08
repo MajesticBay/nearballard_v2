@@ -234,7 +234,8 @@ a {
   .top-screen__parts-image {
     width: 100%; }
   .top-screen__logo-stroke {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    margin-top: 1rem; }
 
 .header {
   display: grid;
