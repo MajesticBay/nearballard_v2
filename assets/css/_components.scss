@@ -55,7 +55,11 @@
     }
 
     &__inner {
-        width: 90%;
+        width: 100%;
+    }
+
+    &__inner-thin {
+        width: 100%;
     }
 }
 
@@ -68,7 +72,13 @@
 @media only screen and (min-width: 768px) {
     .container {
         &__inner {
-            width: 80%;
+            width: 100%;
+            max-width: var(--width-inner-bg);
+        }
+
+        &__inner-thin {
+            width: 100%;
+            max-width: var(--width-inner-sm);
         }
     }
 }
