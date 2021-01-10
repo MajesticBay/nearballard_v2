@@ -22,13 +22,15 @@
 
 .heading-primary {
     font-family: "Monument Extended";
-    font-size: 2rem;
+    // font-size: 3.4rem;
+    font-size: 34px;
     line-height: 150%;
     color: var(--color-secondary);
 }
 
 .text {
-    font-size: 1.2rem;
+    // font-size: 2.2rem;
+    font-size: 22px;
     line-height: 150%;
     color: var(--color-white);
 }
@@ -38,7 +40,9 @@
     width: fit-content;
     padding: .5rem 1.5rem;
     background-color: var(--color-secondary);
-    font-size: 1.6rem;
+    // font-size: 1.6rem;
+    font-size: 2.6rem;
+    font-size: 26px;
     line-height: 150%;
     border: none;
 }
@@ -60,14 +64,15 @@
 
     &__inner-thin {
         width: 100%;
+        max-width: var(--width-inner-mobile);
     }
 }
 
-@media only screen and (min-width: 440px) {
-    .heading-primary {
-        font-size: 2.6rem;
-    }
-}
+// @media only screen and (min-width: 440px) {
+//     .heading-primary {
+//         font-size: 2.6rem;
+//     }
+// }
 
 @media only screen and (min-width: 768px) {
     .container {
@@ -85,10 +90,18 @@
 
 @media only screen and (min-width: 1440px) {
     .heading-primary {
-        font-size: 5.4rem;
+        // font-size: 5.4rem;
+        font-size: 54px;
     }
 
     .text {
-        font-size: 2.5rem;
+        // font-size: 1.8rem;
+        font-size: 28px;
+    }
+
+    .btn {
+        // font-size: 1.6rem;
+        font-size: 3.3rem;
+        font-size: 33px;
     }
 }

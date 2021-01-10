@@ -13,7 +13,7 @@ html,
 body {
   position: relative; }
 
-html {
+body {
   font-size: 62.5%; }
 
 /*
@@ -157,7 +157,8 @@ a {
   --color-gray: #676760;
   --color-black: #070707;
   --width-inner-bg: 1440px;
-  --width-inner-sm: 1226px; }
+  --width-inner-sm: 1226px;
+  --width-inner-mobile: 311px; }
 
 .pointer {
   cursor: pointer; }
@@ -178,12 +179,12 @@ a {
 
 .heading-primary {
   font-family: "Monument Extended";
-  font-size: 2rem;
+  font-size: 34px;
   line-height: 150%;
   color: var(--color-secondary); }
 
 .text {
-  font-size: 1.2rem;
+  font-size: 22px;
   line-height: 150%;
   color: var(--color-white); }
 
@@ -191,7 +192,8 @@ a {
   width: fit-content;
   padding: .5rem 1.5rem;
   background-color: var(--color-secondary);
-  font-size: 1.6rem;
+  font-size: 2.6rem;
+  font-size: 26px;
   line-height: 150%;
   border: none; }
 
@@ -206,11 +208,9 @@ a {
   .container__inner {
     width: 100%; }
   .container__inner-thin {
-    width: 100%; }
+    width: 100%;
+    max-width: var(--width-inner-mobile); }
 
-@media only screen and (min-width: 440px) {
-  .heading-primary {
-    font-size: 2.6rem; } }
 @media only screen and (min-width: 768px) {
   .container__inner {
     width: 100%;
@@ -220,10 +220,14 @@ a {
     max-width: var(--width-inner-sm); } }
 @media only screen and (min-width: 1440px) {
   .heading-primary {
-    font-size: 5.4rem; }
+    font-size: 54px; }
 
   .text {
-    font-size: 2.5rem; } }
+    font-size: 28px; }
+
+  .btn {
+    font-size: 3.3rem;
+    font-size: 33px; } }
 @font-face {
   font-family: "Monument Extended";
   src: url(../fonts/MonumentExtended-Regular.otf); }
