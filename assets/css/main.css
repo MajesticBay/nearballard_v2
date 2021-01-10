@@ -227,7 +227,14 @@ a {
 
   .btn {
     font-size: 3.3rem;
-    font-size: 33px; } }
+    font-size: 33px; }
+
+  .container__inner {
+    width: 100%;
+    max-width: var(--width-inner-bg); }
+  .container__inner-thin {
+    width: 100%;
+    max-width: var(--width-inner-sm); } }
 @font-face {
   font-family: "Monument Extended";
   src: url(../fonts/MonumentExtended-Regular.otf); }
@@ -251,12 +258,18 @@ a {
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 3rem;
   align-items: center;
   justify-items: center;
   padding-top: 1.5rem; }
   .header__left-part {
-    text-align: left; }
+    text-align: center; }
+  .header__middle-part {
+    order: -1;
+    width: 54px;
+    height: auto; }
+  .header__right-part {
+    display: none; }
 
 .main {
   display: flex;
@@ -363,6 +376,8 @@ a {
     gap: 1rem; }
     .header__left-part {
       text-align: right; }
+    .header__right-part {
+      display: block; }
 
   .location {
     grid-template-columns: 2fr 1.5fr;

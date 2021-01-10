@@ -30,19 +30,25 @@
 .header {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 3rem;
     align-items: center;
     justify-items: center;
     padding-top: 1.5rem;
 
     &__left-part {
-        text-align: left;
-        // margin-right: 5rem;
+        text-align: center;
     }
 
-    // &__right-part {
-    //     margin-left: 5rem;
-    // }
+    &__middle-part {
+        order: -1;
+        width: 54px;
+        height: auto;
+    }
+
+    &__right-part {
+        // margin-left: 5rem;
+        display: none;
+    }
 }
 
 .main {
@@ -206,6 +212,11 @@
 
         &__left-part {
             text-align: right;
+        }
+
+        &__right-part {
+            // margin-left: 5rem;
+            display: block;
         }
     }
 

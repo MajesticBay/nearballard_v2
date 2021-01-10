@@ -79,11 +79,13 @@
         &__inner {
             width: 100%;
             max-width: var(--width-inner-bg);
+            // max-width: 90%;
         }
 
         &__inner-thin {
             width: 100%;
             max-width: var(--width-inner-sm);
+            // max-width: 90%;
         }
     }
 }
@@ -103,5 +105,17 @@
         // font-size: 1.6rem;
         font-size: 3.3rem;
         font-size: 33px;
+    }
+
+    .container {
+        &__inner {
+            width: 100%;
+            max-width: var(--width-inner-bg);
+        }
+
+        &__inner-thin {
+            width: 100%;
+            max-width: var(--width-inner-sm);
+        }
     }
 }
