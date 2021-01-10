@@ -251,8 +251,7 @@
 
     .footer-top-container {
         &__inner {
-            // Why it doesn't work without !important ?
-            grid-template-columns: 3fr 1fr 3fr !important;
+            grid-template-columns: 3fr 1fr 3fr;
         }
 
         &__left {
