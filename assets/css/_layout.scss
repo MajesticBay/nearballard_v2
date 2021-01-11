@@ -269,9 +269,11 @@
             // justify-content: center;
         }
 
-        // &__submit {
-        //     grid-area: submit;
-        // }
+        &__submit {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            // grid-area: submit;
+        }
     }
 
     .footer-top-container {
