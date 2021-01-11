@@ -304,3 +304,11 @@
         }
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .hours-of-operation {
+        &__break {
+            display: none;
+        }
+    }
+}
