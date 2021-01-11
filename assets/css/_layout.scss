@@ -19,6 +19,7 @@
 
     &__parts-image {
         width: 100%;
+        max-width: var(--width-inner-mobile);
     }
 
     &__logo-stroke {

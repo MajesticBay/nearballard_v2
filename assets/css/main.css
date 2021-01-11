@@ -259,7 +259,8 @@ a {
   background-image: url(../images/bg.png);
   color: var(--color-white); }
   .top-screen__parts-image {
-    width: 100%; }
+    width: 100%;
+    max-width: var(--width-inner-mobile); }
   .top-screen__logo-stroke {
     margin-bottom: 2rem; }
 
