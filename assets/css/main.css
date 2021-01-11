@@ -287,8 +287,10 @@ a {
     flex-direction: column; }
   .location__link {
     color: var(--color-black); }
+  .location__btn-container {
+    margin-top: 2rem; }
   .location__btn {
-    margin-top: 2rem;
+    display: inline;
     color: var(--color-black); }
   .location__img-container {
     display: flex;
@@ -301,6 +303,8 @@ a {
   flex-direction: column;
   justify-content: center;
   color: var(--color-white); }
+  .hours-of-operation__link {
+    color: var(--color-white); }
 
 .contact-us {
   padding: 4rem 0; }
