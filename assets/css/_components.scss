@@ -37,7 +37,7 @@
 
 .btn {
     // display: inline-block;
-    width: fit-content;
+    width: 100%;
     padding: .5rem 1.5rem;
     background-color: var(--color-secondary);
     // font-size: 1.6rem;
@@ -75,17 +75,21 @@
 // }
 
 @media only screen and (min-width: 768px) {
+    .btn {
+        width: fit-content;
+    }
+
     .container {
         &__inner {
             width: 100%;
             max-width: var(--width-inner-bg);
-            // max-width: 90%;
+            max-width: 640px;
         }
 
         &__inner-thin {
             width: 100%;
             max-width: var(--width-inner-sm);
-            // max-width: 90%;
+            max-width: 640px;
         }
     }
 }
