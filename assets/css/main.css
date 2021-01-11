@@ -376,6 +376,10 @@ a {
     gap: 1rem; }
     .header__left-part {
       text-align: right; }
+    .header__middle-part {
+      order: initial;
+      width: initial;
+      height: auto; }
     .header__right-part {
       display: block; }
 
