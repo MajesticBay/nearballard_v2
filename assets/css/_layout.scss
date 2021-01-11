@@ -145,6 +145,12 @@
         justify-content: center;
         margin-top: 2rem;
     }
+
+    &__submit {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        // grid-area: submit;
+    }
 }
 
 .footer {
@@ -269,11 +275,9 @@
             // justify-content: center;
         }
 
-        &__submit {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            // grid-area: submit;
-        }
+        // &__submit {
+        //     grid-area: submit;
+        // }
     }
 
     .footer-top-container {
