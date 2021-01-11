@@ -217,7 +217,7 @@
 
         &__parts-image {
             width: 100%;
-            max-width: var(--width-inner-bg);
+            max-width: var(--width-inner-tablet);
         }
     }
 
@@ -306,10 +306,32 @@
     }
 }
 
+@media only screen and (min-width: 1024px) {
+    .top-screen {
+        &__parts-image {
+            max-width: var(--width-inner-xsm);
+        }
+    }
+}
+
 @media only screen and (min-width: 1440px) {
+    .top-screen {
+        &__parts-image {
+            max-width: var(--width-inner-sm);
+        }
+    }
+
     .hours-of-operation {
         &__break {
             display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 1660px) {
+    .top-screen {
+        &__parts-image {
+            max-width: var(--width-inner-bg);
         }
     }
 }

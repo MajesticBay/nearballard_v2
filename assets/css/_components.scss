@@ -86,14 +86,14 @@
     .container {
         &__inner {
             width: 100%;
-            max-width: var(--width-inner-bg);
-            max-width: 640px;
+            // max-width: var(--width-inner-bg);
+            max-width: var(--width-inner-tablet);;
         }
 
         &__inner-thin {
             width: 100%;
-            max-width: var(--width-inner-sm);
-            max-width: 640px;
+            // max-width: var(--width-inner-sm);
+            max-width: var(--width-inner-tablet);;
         }
     }
 }
