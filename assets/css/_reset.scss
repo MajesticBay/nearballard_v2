@@ -18,6 +18,10 @@ body {
     // overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     //1rem = 10px 10px/16px = 62.5%
     font-size: 62.5%;

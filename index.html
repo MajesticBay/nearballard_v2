@@ -32,6 +32,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/assets/images/realfavicongenerator/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
+    <script src="./assets/js/smoothScroll.js"></script>
 </head>
 
 <body class="body">
@@ -48,9 +49,11 @@
             </div>
         </header>
         <img class="top-screen__parts-image" src="./assets/images/volvo-parts.png" alt="volvo parts large pattern"/>
-        <img class="top-screen__logo-stroke pointer" src="./assets/images/logo-stroke.svg" alt="web site logo pattern arrow shape"/>
+        <a class="smoothScroll" href="#main">
+            <img class="top-screen__logo-stroke pointer" src="./assets/images/logo-stroke.svg" alt="web site logo pattern arrow shape"/>
+        </a>
     </div>
-    <main class="main">
+    <main id="main" class="main">
         <section class="container">
             <div class="container__inner-thin">
                 <div class="location">
@@ -130,7 +133,6 @@
             <p>© 2021 Copyright <a class="footer__bottom-container-link" href="#">Majestic Bay</a></p>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
 </html>

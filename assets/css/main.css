@@ -13,6 +13,9 @@ html,
 body {
   position: relative; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-size: 62.5%; }
 
